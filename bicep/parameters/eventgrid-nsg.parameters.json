@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "eventSubscriptionName": {
+      "value": "networkSecurityGroups"
+    },
+    "includedEventTypes": {
+      "value": [
+        "Microsoft.Resources.ResourceWriteSuccess",
+        "Microsoft.Resources.ResourceWriteFailure",
+        "Microsoft.Resources.ResourceWriteCancel",
+        "Microsoft.Resources.ResourceDeleteSuccess",
+        "Microsoft.Resources.ResourceDeleteFailure",
+        "Microsoft.Resources.ResourceDeleteCancel"
+      ]
+    },
+    "advancedFilters": {
+      "value": [
+        {
+          "operatorType": "StringIn",
+          "key": "data.operationName",
+          "values": [
+            "Microsoft.Network/networkSecurityGroups/securityRules/write",
+            "Microsoft.Network/networkSecurityGroups/securityRules/delete"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "name": "EventGridEvent",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "eventgrid",
+      "connection": "AzureWebJobsStorage"
+    },
+    {
+      "type": "queue",
+      "direction": "out",
+      "name": "networkchanges",
+      "queueName": "networkchanges",
+      "connection": "AzureWebJobsStorage"
+    }
+  ]
+}

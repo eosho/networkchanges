@@ -1,0 +1,79 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\
+for details on configuring this project to bundle and minify static web assets. */
+html {
+  font-size: 14px;
+}
+
+html,
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+  width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+  margin: 15px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+  /* Hide captions */
+  .carousel-caption {
+    display: none;
+  }
+}
+
+/*DL, DT, DD TAGS LIST DATA*/
+dl {
+  margin-bottom: 50px;
+}
+
+table {
+  table-layout: center;
+  width: 400px;
+}
+
+table,
+th,
+td {
+  border: 10px solid black;
+}
+
+.footer {
+  position: absolute;
+  margin: 0;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+}
