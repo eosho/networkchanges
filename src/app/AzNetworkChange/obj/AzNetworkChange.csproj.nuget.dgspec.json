@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eroshoko.NORTHAMERICA\\OneDrive - Microsoft\\Cx\\Walgreens\\nsg-monitoring\\src\\app\\AzNetworkChange\\AzNetworkChange.csproj": {}
+    "C:\\Users\\eroshoko.NORTHAMERICA\\OneDrive - Microsoft\\Cx\\Walgreens\\wba-events-monitoring\\src\\app\\AzNetworkChange\\AzNetworkChange.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eroshoko.NORTHAMERICA\\OneDrive - Microsoft\\Cx\\Walgreens\\nsg-monitoring\\src\\app\\AzNetworkChange\\AzNetworkChange.csproj": {
+    "C:\\Users\\eroshoko.NORTHAMERICA\\OneDrive - Microsoft\\Cx\\Walgreens\\wba-events-monitoring\\src\\app\\AzNetworkChange\\AzNetworkChange.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eroshoko.NORTHAMERICA\\OneDrive - Microsoft\\Cx\\Walgreens\\nsg-monitoring\\src\\app\\AzNetworkChange\\AzNetworkChange.csproj",
+        "projectUniqueName": "C:\\Users\\eroshoko.NORTHAMERICA\\OneDrive - Microsoft\\Cx\\Walgreens\\wba-events-monitoring\\src\\app\\AzNetworkChange\\AzNetworkChange.csproj",
         "projectName": "AzNetworkChange",
-        "projectPath": "C:\\Users\\eroshoko.NORTHAMERICA\\OneDrive - Microsoft\\Cx\\Walgreens\\nsg-monitoring\\src\\app\\AzNetworkChange\\AzNetworkChange.csproj",
+        "projectPath": "C:\\Users\\eroshoko.NORTHAMERICA\\OneDrive - Microsoft\\Cx\\Walgreens\\wba-events-monitoring\\src\\app\\AzNetworkChange\\AzNetworkChange.csproj",
         "packagesPath": "C:\\Users\\eroshoko.NORTHAMERICA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eroshoko.NORTHAMERICA\\OneDrive - Microsoft\\Cx\\Walgreens\\nsg-monitoring\\src\\app\\AzNetworkChange\\obj\\",
+        "outputPath": "C:\\Users\\eroshoko.NORTHAMERICA\\OneDrive - Microsoft\\Cx\\Walgreens\\wba-events-monitoring\\src\\app\\AzNetworkChange\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

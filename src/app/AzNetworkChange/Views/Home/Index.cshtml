@@ -9,42 +9,42 @@
 </div>
 <br />
 <div>
-<table class="table w-auto small table-striped table-bordered">
-  <thead class="">
-    <tr>
-      <th>Subscription Id</th>
-      <th>Resource Id</th>
-      <th>Resource Type</th>
-      <th>Changed By</th>
-      <th>Before Value</th>
-      <th>After Value</th>
-      <th>Changed Property</th>
-      <th>Time</th>
-    </tr>
-  </thead>
-  <tbody>
-    @if (Model.Value != null)
-    {
-      foreach (var item in Model.Value)
+  <table class="table w-auto small table-striped table-bordered">
+    <thead class="">
+      <tr>
+        <th>Subscription Id</th>
+        <th>Resource Id</th>
+        <th>Resource Type</th>
+        <th>Changed By</th>
+        <th>Before Value</th>
+        <th>After Value</th>
+        <th>Changed Property</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      @if (Model.Value != null)
+      {
+        foreach (var item in Model.Value)
+        {
+          <tr>
+            <td>@item.Subscription</td>
+            <td>@item.ResourceId</td>
+            <td>@item.ResourceType</td>
+            <td>@item.ChangedBy</td>
+            <td>@item.BeforeValue</td>
+            <td>@item.AfterValue</td>
+            <td>@item.ChangedProperty</td>
+            <td>@item.Timestamp</td>
+          </tr>
+        }
+      }
+      else
       {
         <tr>
-          <td>@item.Subscription</td>
-          <td>@item.ResourceId</td>
-          <td>@item.ResourceType</td>
-          <td>@item.ChangedBy</td>
-          <td>@item.BeforeValue</td>
-          <td>@item.AfterValue</td>
-          <td>@item.ChangedProperty</td>
-          <td>@item.Timestamp</td>
+          <td>No Data</td>
         </tr>
       }
-    }
-    else
-    {
-      <tr>
-        <td>No Data</td>
-      </tr>
-    }
-  </tbody>
-</table>
+    </tbody>
+  </table>
 </div>

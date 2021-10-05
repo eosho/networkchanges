@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TVvDSCn+7FyGMwaLk4aC6D9C9ykDwX1Y1R+9m1mPwhxb9xdUnAyudzheq60teEfTD9G+5aJURivYLjKYzFl9uw==",
+  "dgSpecHash": "pBhqgqfnUNH2TX2tVp11l2IhxDZ8IXWgaWVnK9FWD71ln40lBhnbc066X+X/qjgJoUYvZPGyV1ZUbXN2Fp2/CA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\eroshoko.NORTHAMERICA\\OneDrive - Microsoft\\Cx\\Walgreens\\nsg-monitoring\\src\\app\\AzNetworkChange\\AzNetworkChange.csproj",
+  "projectFilePath": "C:\\Users\\eroshoko.NORTHAMERICA\\OneDrive - Microsoft\\Cx\\Walgreens\\wba-events-monitoring\\src\\app\\AzNetworkChange\\AzNetworkChange.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",
