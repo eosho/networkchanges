@@ -1,4 +1,4 @@
-@description('The location in which the Event Grid resources should be deployed.')
+@description('The location of the storage account.')
 param location string
 
 @description('The name of the function app storage account.')

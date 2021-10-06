@@ -1,7 +1,7 @@
 @description('The name of the app insights resource.')
 param appInsightsName string = 'appins${uniqueString(resourceGroup().id)}'
 
-@description('The location in which the Event Grid resources should be deployed.')
+@description('The location of the app insights resource.')
 param location string
 
 @description('Resource tagging metadata')
